@@ -1,0 +1,17 @@
+there are different steps were involved r=to create a todo application in react 
+
+
+first we need a form to give input 
+
+and one button
+
+create a state using usesate to maintain the state
+
+initially it is a form so we need to create a function for this to prevent changing in the form =>  onsubmit{function-name}
+in the same function use call back to empty all the time when i hit enter button
+
+use onchnage method to make changes check once after all the steps does it working or not 
+for onchange create a function for targting the inout value
+cosnt changebutton = (e)=>{
+    setInput(e.target.value)  where setInput is the usestatecall back function
+}
