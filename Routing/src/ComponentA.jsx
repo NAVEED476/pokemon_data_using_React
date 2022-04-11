@@ -9,7 +9,7 @@ export const ComponentA = () =>{
     const [moves,setmoves] = useState();
     useEffect (()=>{
         async function getdata () {
-            const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${num}`)
+            const res = await axios.get(`https://fakestoreapi.com/products`)
             console.log(res.data)
             setname(res.data.name)
             setmoves(res.data.moves.length)

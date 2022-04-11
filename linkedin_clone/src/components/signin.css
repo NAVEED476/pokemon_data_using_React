@@ -1,0 +1,27 @@
+.siginbutton{
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+.loginwith{
+    border-radius: 20px;
+}
+.Signinpage{
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.paragraph{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.para{
+    margin: auto;
+    margin-left: 700px;
+}
